@@ -34,7 +34,7 @@ const Pagination = ({
     if (show) res = highestBid;
     else res = lowestBid;
 
-    console.log(res);
+    // console.log(res);
     return res?.slice(startIndex, endIndex);
   };
 

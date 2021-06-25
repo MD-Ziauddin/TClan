@@ -1,0 +1,25 @@
+.customer {
+  background-color: #eee;
+  min-height: 97vh;
+  max-height: auto;
+
+  &__bids {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__bid {
+    margin: 10px 0;
+    background: #fff;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+
+    & p {
+      margin: 5px 0;
+    }
+  }
+}
