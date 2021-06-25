@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 const CustomerBids = (props) => {
   let id = props.match.params.id;
   let userBid = props.data?.filter((obj) => obj.id === id)[0];
-  console.log(userBid);
+  // console.log(userBid);
 
   return (
     <div className='customer'>
