@@ -3,7 +3,8 @@ import React from 'react';
 const BidCard = ({ data, showMax }) => {
   let bid = data;
   return (
-    <div className='bidCards'>
+    // <div className='bidCards'>
+    <>
       {
         showMax === true ? (
           // data.map((bid, idx) => {
@@ -41,7 +42,8 @@ const BidCard = ({ data, showMax }) => {
         //   );
         // })
       }
-    </div>
+    </>
+    // </div>
   );
 };
 

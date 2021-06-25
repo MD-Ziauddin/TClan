@@ -45,7 +45,7 @@ const Pagination = ({
 
   return (
     <>
-      <div className='dataContainer'>
+      <div className='bidCards'>
         {getPaginatedData()?.map((d, idx) => (
           <RenderComponent key={idx} data={d} showMax={show} />
         ))}
