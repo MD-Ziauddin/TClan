@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import { GlobalContext } from '../context/GlobalState';
 
 const Pagination = ({
   data,
@@ -10,6 +11,14 @@ const Pagination = ({
   show,
 }) => {
   // console.log(data);
+  const { addUserbid } = useContext(GlobalContext);
+
+  useEffect(() => {
+    if (data !== null) {
+      addUserbid(data);
+    }
+  }, [data]);
+
   const [pages] = useState(Math.round(data?.length / dataLimit));
   const [currentPage, setCurrentPage] = useState(1);
 

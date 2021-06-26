@@ -1,10 +1,16 @@
 import React from 'react';
+import { useContext } from 'react';
 import { withRouter } from 'react-router-dom';
+import { GlobalContext } from '../context/GlobalState';
 
 const CustomerBids = (props) => {
   let id = props.match.params.id;
-  let userBid = props.data?.filter((obj) => obj.id === id)[0];
+  const { userBids } = useContext(GlobalContext);
+  let userBid = userBids[0].filter((obj) => obj.id === id)[0];
+
   // console.log(userBid);
+
+  // console.log(userBids);
 
   return (
     <div className='customer'>
