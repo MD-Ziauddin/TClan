@@ -1,6 +1,6 @@
 # Basic Instruction
 
-## To run this prokect, clone it on your system.
+## To run this project, clone it on your system.
 
 ## Run `npm i` to install all the dependencies packages.
 
