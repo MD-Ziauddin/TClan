@@ -55,6 +55,9 @@ const Pagination = ({
   return (
     <>
       <div className='bidCards'>
+        <h1>
+          Sorted by {show === true ? 'Descending Order' : 'Ascending Order'}
+        </h1>
         {getPaginatedData()?.map((d, idx) => (
           <RenderComponent key={idx} data={d} showMax={show} />
         ))}
