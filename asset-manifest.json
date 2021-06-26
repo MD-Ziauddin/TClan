@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tclan/static/css/main.ee43abb0.chunk.css",
-    "main.js": "/tclan/static/js/main.61484c3b.chunk.js",
-    "main.js.map": "/tclan/static/js/main.61484c3b.chunk.js.map",
+    "main.js": "/tclan/static/js/main.5003c893.chunk.js",
+    "main.js.map": "/tclan/static/js/main.5003c893.chunk.js.map",
     "runtime-main.js": "/tclan/static/js/runtime-main.efd67c91.js",
     "runtime-main.js.map": "/tclan/static/js/runtime-main.efd67c91.js.map",
     "static/js/2.3efa502f.chunk.js": "/tclan/static/js/2.3efa502f.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.efd67c91.js",
     "static/js/2.3efa502f.chunk.js",
     "static/css/main.ee43abb0.chunk.css",
-    "static/js/main.61484c3b.chunk.js"
+    "static/js/main.5003c893.chunk.js"
   ]
 }
